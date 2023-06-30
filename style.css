@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background:url(images/pink-yellow-background-gradient-illustration-260nw-1130015066.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+        --bs-navbar-padding-y: 0rem; 
+}
+.container-fluid {
+    background-color: #fff;
+    color: #000;
+    width: 108vw;
+    max-width: 100%;
+}
+.fa-cart-shopping{
+    margin-left: 20px;
+}
+.containerr{
+    width: 100vw;
+    height: 91.8vh;
+    /* background-color: #DD7230; */
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#photo{
+    margin: 0px 0px 0px 200px;
+}
+.nav-link{
+    font-weight: bolder;
+    color: #000;
+}
+@media screen and (min-width:200px) {
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-solid{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .box{
+    position: absolute;
+	top:10%;
+	right:10%;
+	left: 10%;
+    }
+}
+@media screen and (min-width:800px) {
+    .container-fluid{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.box{
+	position: absolute;
+	top:15%;
+	right:28%;
+	left: 28%;
+	background: rgba(251, 75, 75,0.5);
+    padding: 5px 5px 5px 5px;
+}
+.box h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-weight: 300;
+	padding-left: 0;
+    padding-right: 20px;
+}
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: smaller;
+}
